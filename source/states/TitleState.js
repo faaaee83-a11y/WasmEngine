@@ -6,7 +6,7 @@ export class TitleState {
     const titlefont = new FontFace("VCR", "url(assets/shared/fonts)");
     await titlefont.load();
     document.fonts.add(titlefont);
-    freakyMenustart();
+    freakyMenuStart();
     ctx.font = "32px VCR";
     ctx.fillStyle = "white";
     let text = "This is Friday Night Funk1n";
@@ -20,8 +20,22 @@ export class TitleState {
     text = "This Fr1day n1ght funk1n made by ninjamuffin99";
     width = ctx.measureText(text).width;
     height = ctx.measureText(text).height;
-    text = "Made By SelvenaDev";
+    await sleep(2500);
+    text = "Port By newground(this isnt port by newground)";
     width = ctx.measureText(text).width;
     height = ctx.measureText(text).height;
+    await sleep(500);
+    text = "Friday             ";
+    width = ctx.measureText(text).width;
+    height = ctx.measureText(text).height;
+    await sleep(250);
+    text = "Friday Night       ";
+    width = ctx.measureText(text).width;
+    height = ctx.measureText(text).height;
+    await sleep(250);
+    text = "Friday Night Funkin";
+    width = ctx.measureText(text).width;
+    height = ctx.measureText(text).height;
+    
   }
 }
