@@ -6,7 +6,7 @@ export class TitleState {
     const titlefont = new FontFace("VCR", "url(assets/shared/fonts)");
     await titlefont.load();
     document.fonts.add(titlefont);
-    
+    freakyMenustart();
     ctx.font = "32px VCR";
     ctx.fillStyle = "white";
     let text = "This is Friday Night Funk1n";
