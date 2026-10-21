@@ -1,3 +1,5 @@
 export class freakyMenu {
-  construte
+  constructor {
+    
+  }
 }
