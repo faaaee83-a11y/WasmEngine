@@ -1,7 +1,8 @@
 const canvas = document.createElement("canvas");
-canvas.height = window.innerHeight;
+canvas.id = "canvas";                 // TitleState が探すための id
 canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
 document.body.appendChild(canvas);
 
-const titlestate = await import("states/TitleState.js");
-const start = new mod.TitleState();
+const mod = await import("./states/TitleState.js");
+new mod.TitleState();
