@@ -43,6 +43,6 @@ export class TitleState {
       this.drawText(text);
       await sleep(wait);
     }
-    gfshow(this.ctx, this.canvas); 
+    gfshow(); 
   }
 }
