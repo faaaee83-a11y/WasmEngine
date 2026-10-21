@@ -6,6 +6,7 @@ export class TitleState {
     const titlefont = new FontFace("VCR", "url(assets/shared/fonts)");
     await titlefont.load();
     document.fonts.add(titlefont);
+    const freakyMenuStart = 
     freakyMenuStart();
     ctx.font = "32px VCR";
     ctx.fillStyle = "white";
