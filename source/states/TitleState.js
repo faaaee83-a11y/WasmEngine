@@ -1,4 +1,5 @@
 import { playMusic } from "./audio.js";
+import { gfshow } from "./gfshow.js";
 
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 
